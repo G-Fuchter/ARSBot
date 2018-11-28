@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ARSBot">
+    <output-path>$PROJECT_DIR$/out/artifacts/ARSBot</output-path>
+    <root id="archive" name="ARSBot.jar">
+      <element id="module-output" name="ARSBotJ8" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/twitter4j.properties" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/src/ARSBot/lib/LICENSE.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/ARSBot/lib/readme.txt" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ARSBot/lib/twitter4j-core-4.0.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
